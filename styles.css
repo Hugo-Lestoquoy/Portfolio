@@ -298,6 +298,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+
 }
 
 table {
@@ -10920,6 +10921,11 @@ p.lead {
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
+}
+
+.icouwu {
+    width: 3rem;
+    height: 3rem;
 }
 
 .dev-icons {
