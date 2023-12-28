@@ -553,7 +553,10 @@ progress {
 }
 
 .list-inline-item {
-  display: inline-block;
+    display: inline-block;
+    position: relative; 
+    margin-right: 0.5rem;
+    transition: opacity 0.3s ease;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -10927,6 +10930,30 @@ p.lead {
     width: 80%;
     max-width: 80px;
     height: auto;
+    opacity: 1;
+}
+
+.list-inline-item:hover .iconuwu {
+    opacity: 0.7;
+}
+
+.list-inline-item:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.list-inline-item:hover::after {
+    opacity: 1; /* Make the tooltip visible on hover */
 }
 
 .iconuwuwu {
