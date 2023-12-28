@@ -10924,8 +10924,8 @@ p.lead {
 }
 
 .icouwu {
-    width: 3rem;
-    height: 3rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .dev-icons {
