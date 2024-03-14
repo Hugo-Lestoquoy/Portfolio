@@ -63,8 +63,8 @@
     --bs-border-radius-xl: 1rem;
     --bs-border-radius-2xl: 2rem;
     --bs-border-radius-pill: 50rem;
-    --bs-link-color: #bd5d38;
-    --bs-link-hover-color: #974a2d;
+    --bs-link-color: #cf9259;
+    --bs-link-hover-color: #daa551;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
 }
@@ -10913,11 +10913,13 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #fff;
   color: #fff;
-  border-radius: 100%;
+  border-radius: 10%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
+  border: solid;
+  border-color: #000;
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
