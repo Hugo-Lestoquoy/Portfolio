@@ -10947,9 +10947,15 @@ p.lead {
 }
 
 .line {
-    width: 10%;
-    max-width: 10px;
+        width: 100%;
+    max-width: 220px;
     height: auto;
+}
+
+.gif {
+    height: auto;
+    max-width: 700px;
+    width: 80%;
 }
 
 .list-inline-item:hover .iconuwu {
