@@ -7334,6 +7334,7 @@ textarea.form-control-lg {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+  margin: auto;
 }
 
 .flex-shrink-0 {
@@ -7343,6 +7344,16 @@ textarea.form-control-lg {
 .flex-shrink-1 {
   flex-shrink: 1 !important;
 }
+
+.flex-shrink-2 {
+    flex-shrink: 0 !important;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .flex-wrap {
   flex-wrap: wrap !important;
