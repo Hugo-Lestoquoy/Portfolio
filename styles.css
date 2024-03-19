@@ -10946,6 +10946,12 @@ p.lead {
     opacity: 1;
 }
 
+.line {
+    width: 10%;
+    max-width: 10px;
+    height: auto;
+}
+
 .list-inline-item:hover .iconuwu {
     opacity: 0.7;
 }
